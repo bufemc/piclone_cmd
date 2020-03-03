@@ -27,10 +27,13 @@ To use:
    cd ~/piclone_cmd
    sudo ./piclone_cmd /dev/sda
    ```
-4. Inital trial of the binary got errors. The following fixed:
+4. The program will display status and progress.
+4. There are two compiled binaries. Use the appropriate one for your architecture.
 ```sh
    cd ~/piclone_cmd
-   apt-get install buildessentials
-   make
+   #:ls -l
+   rw-r--r-- 1 root root   267 Mar  2 23:27 makefile
+   -rwxr-xr-x 1 root root 29552 Mar  2 23:29 piclone_cmd_aarch64
+   -rwxr-xr-x 1 root root 23736 Mar  2 23:29 piclone_cmd_armv7l
+   -rw-r--r-- 1 root root 17621 Mar  2 23:27 piclone_cmd.c
 ```
-5. The program will display status and progress.
