@@ -25,7 +25,7 @@ To use:
 4. Go to the pi_backup directory then run piclone_cmd, specifying the correct device name from #3 above:
    ```sh
    cd ~/piclone_cmd
-   sudo ./piclone_cmd /dev/sda
+   sudo ./piclone_cmd_<arch> /dev/sda
    ```
 4. The program will display status and progress.
 4. There are two compiled binaries. Use the appropriate one for your architecture.
